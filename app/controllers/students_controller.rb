@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
     else
       @activate.update(active: false)
     end
-    render "/students/#{params[:id]}"
+    show
   end
 
   private
