@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
     else
       @activate.update(active: false)
     end
-    show
+    show(@activate)
   end
 
   private
