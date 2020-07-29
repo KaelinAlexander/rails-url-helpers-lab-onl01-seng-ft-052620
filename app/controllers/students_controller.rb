@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
     else
       @activate.update(active: false)
     end
-    show(@activate)
+    student_path(@activate)
   end
 
   private
